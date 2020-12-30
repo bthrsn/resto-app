@@ -2,7 +2,6 @@ import React from 'react';
 import {BrowserRouter as Router, Route} from 'react-router-dom';
 import {MainPage, CartPage} from '../pages';
 import AppHeader from '../app-header';
-import WithRestoService from '../hoc';
 
 import Background from './food-bg.jpg';
 
@@ -19,4 +18,4 @@ const App = () => {
     )
 }
 
-export default WithRestoService()(App);
+export default App;
