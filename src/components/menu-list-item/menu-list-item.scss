@@ -1,4 +1,8 @@
 .menu {
+    &__link {
+        text-decoration: none;
+        color: black;
+    }
     &__item {
         width: 350px;
         min-height: 400px;

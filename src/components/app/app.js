@@ -13,6 +13,7 @@ const App = () => {
             <AppHeader total={50}/>
             <Route path='/' exact component={MainPage} />
             <Route path='/cart' component={CartPage} />
+            {/* <Route path='/:id' component={ItemPage} /> */}
         </div>
     </Router>
     )
